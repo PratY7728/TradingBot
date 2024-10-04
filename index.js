@@ -4,7 +4,7 @@ import {analyzeData} from './strategy.js';
 import { executeTrade } from './trade.js';
 import generateReport from './report.js';
 
-const INTERVAL = 1 * 1000; // 1 minute in milliseconds
+const INTERVAL = 1 * 1000; 
 
 async function main() {
   console.log('Starting Trading Bot...');
