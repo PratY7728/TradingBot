@@ -8,7 +8,7 @@ This is a simple trading bot that fetches real-time cryptocurrency prices for th
 ## Application Flow
 
 1. **Fetching Data**  
-   The bot fetches the latest SOL/USDT price from the Binance API every 1 minute. It stores the last 60 prices in memory for analysis.
+   The bot fetches the latest SOL/USDT price from the Binance API every 1 second. It stores the last 60 prices in memory for analysis.
 
 2. **Analyzing Data and Strategy**  
    The bot uses an average-based strategy:
